@@ -30,3 +30,12 @@ github:
 logging:
   level:
     org.springframework.security: DEBUG
+
+gitlab:
+  client:
+    clientId: 9782d347188b3f64970144a214caedea8d543d92fa01eeedd77fcb1477c05cd8
+    clientSecret: e650873f8b6bc1b8eebdc67e81274f345ddd15e31bc21d12ae07cbdd7774ac13
+    accessTokenUri: https://gitlab.com/oauth/token
+    userAuthorizationUri: https://gitlab.com/oauth/authorize
+  resource:
+    userInfoUri: https://gitlab.com/api/v4/user

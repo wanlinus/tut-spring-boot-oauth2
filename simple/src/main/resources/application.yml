@@ -1,12 +1,16 @@
 security:
   oauth2:
     client:
-      clientId: 233668646673605
-      clientSecret: 33b17e044ee6a4fa383f46ec6e28ea1d
-      accessTokenUri: https://graph.facebook.com/oauth/access_token
-      userAuthorizationUri: https://www.facebook.com/dialog/oauth
-      tokenName: oauth_token
-      authenticationScheme: query
-      clientAuthenticationScheme: form
+      clientId: 9782d347188b3f64970144a214caedea8d543d92fa01eeedd77fcb1477c05cd8
+      clientSecret: e650873f8b6bc1b8eebdc67e81274f345ddd15e31bc21d12ae07cbdd7774ac13
+      accessTokenUri: https://gitlab.com/oauth/token
+      userAuthorizationUri: https://gitlab.com/oauth/authorize
+    #      tokenName: oauth_token
+    #      authenticationScheme: query
+    #      clientAuthenticationScheme: form
     resource:
-      userInfoUri: https://graph.facebook.com/me
+      userInfoUri: https://gitlab.com/api/v4/user
+
+logging:
+  level:
+    org.springframework.security: DEBUG

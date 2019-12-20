@@ -1,13 +1,15 @@
 security:
   oauth2:
     client:
-      clientId: bd1c0a783ccdd1c9b9e4
-      clientSecret: 1a9030fbca47a5b2c28e92f19050bb77824b5ad1
-      accessTokenUri: https://github.com/login/oauth/access_token
-      userAuthorizationUri: https://github.com/login/oauth/authorize
-      clientAuthenticationScheme: form
+      clientId: 9782d347188b3f64970144a214caedea8d543d92fa01eeedd77fcb1477c05cd8
+      clientSecret: e650873f8b6bc1b8eebdc67e81274f345ddd15e31bc21d12ae07cbdd7774ac13
+      accessTokenUri: https://gitlab.com/oauth/token
+      userAuthorizationUri: https://gitlab.com/oauth/authorize
+    #      tokenName: oauth_token
+    #      authenticationScheme: query
+    #      clientAuthenticationScheme: form
     resource:
-      userInfoUri: https://api.github.com/user
+      userInfoUri: https://gitlab.com/api/v4/user
 
 logging:
   level:
